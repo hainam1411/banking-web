@@ -6,9 +6,9 @@
     line-height: 1.4;
     overflow-x: hidden;
 }
-::-webkit-scrollbar 
+::-webkit-scrollbar
 {
-    width: 1px; 
+    width: 1px;
 }
 a
 {
@@ -21,7 +21,7 @@ a
 .main
 {
     margin-left: 7.5rem;
-   
+
 }
 .main
 {
@@ -34,8 +34,8 @@ a
     padding: 0 0 0 2.5rem;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-   
-    
+
+
 }
 .main .header_support .title
 {
@@ -46,7 +46,7 @@ a
 }
 .main .header_support h1
 {
-    
+
     margin: 10px 0 0 0;
     font-size: 36px;
     font-weight: 600;
@@ -69,7 +69,7 @@ a
     padding: 18px 50px 18px 20px;
     border-left: 4px solid #E04F16;
     cursor: pointer;
-    
+
 }
 .feature_deliver ,.feature_manage
 {
@@ -104,7 +104,7 @@ h3
     display: flex;
     align-items: center;
 }
-.btn_more img 
+.btn_more img
 {
     margin-left: 8px;
     height: 20px;
@@ -119,11 +119,11 @@ h3
     border-top-left-radius: 20px;
     width: 1000px;
     height: 620px;
-  
+
 }
 .pricing
 {
-   
+
     background: #F9FAFB;
 }
 .pricing .select_pricing
@@ -135,7 +135,7 @@ h3
     gap: 30px;
 }
 .price p
-{   
+{
     font-weight: 600;
     color: #B93815;
 }
@@ -157,17 +157,17 @@ h3
 }
 .select_price_one,.select_price_two
 {
-   
+
     background: white;
     border-radius: 15px;
-    box-shadow: 0 0.5px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 0.5px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid #e0e0e0;
-    
+
 
 }
 .price_basic,.price_pro
-{   
-       
+{
+
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -238,8 +238,8 @@ border-radius: 40px;
 {
     background: #F9FAFB;
     padding: 30px ;
-   
-    
+
+
 }
 .btn_start div
 {
@@ -253,15 +253,15 @@ border-radius: 40px;
     line-height: 48px;
     color: white;
     font-weight: 600;
-    
+
 }
-.more 
+.more
 {
    margin: 6.5rem 7.5rem;
    padding:  0 2.5rem 0 2.5rem;
     display: grid;
     grid-template-columns: 3fr 2fr;
-    height: 448px; 
+    height: 448px;
     overflow-y: hidden;
 }
 .more_love
@@ -272,7 +272,7 @@ border-radius: 40px;
     padding: 4rem 4rem 4rem 4rem;
 }
 .more_love img
-{   
+{
     margin: 8px 0 0 0;
     height: 20px;
     max-width: 100%;
@@ -295,7 +295,7 @@ border-radius: 40px;
     font-weight: 500;
 }
 .more_actor p
-{   
+{
     margin-top: 8px;
     color: #F9DBAF;
 }
@@ -313,9 +313,9 @@ border-radius: 40px;
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
-   
+
   }
-  
+
   .select-crike {
     padding: 5px;
     background-color: #e04f16;
@@ -325,7 +325,7 @@ border-radius: 40px;
 .footer
 {
     background: #932F19;
-   
+
 }
 .footer .footer_flex
 {
@@ -350,7 +350,7 @@ border-radius: 40px;
 }
 .footer_email,.footer_end_text
 {
-    
+
     display: flex;
     gap: 18px;
 }
@@ -358,7 +358,7 @@ border-radius: 40px;
 {
     width: 270px;
     padding: 5px 13px;
-    line-height: 34px;   
+    line-height: 34px;
     border: none;
     outline: none;
     font-size: 16px;
@@ -366,7 +366,7 @@ border-radius: 40px;
 }
 button
 {
-  
+
     font-weight: 500;
     font-size:inherit;
     background: #E04F16;
@@ -374,7 +374,7 @@ button
     outline: none;
     color: white;
     border-radius: 10px;
-    
+
 }
 .footer_email button span
 {
@@ -434,7 +434,7 @@ button
     align-items: center;
     column-gap: 8px;
     font-size: 20px;
-  
+
 }
 .footer_end .end_text
 {
@@ -485,12 +485,12 @@ button
     .footer_flex
     {
         padding: 0 1rem;
-        
+
     }
     .more_love
     {
         padding: 40px 24px 24px 32px;
-      
+
     }
     .more_img
     {
@@ -499,13 +499,13 @@ button
     .more{
         margin: 4rem 1rem;
         padding: 0;
-      
-        
+
+
     }
-  
+
 }
 @media screen and (max-width:900px) {
-  
+
     .feature_tab,.pricing .select_pricing
     {
         grid-template-columns:1fr;
@@ -544,19 +544,19 @@ button
         border-bottom-left-radius: 0;
         border-top-right-radius: 25px;
     }
-    .more_img img 
+    .more_img img
     {
         border-bottom-right-radius: 25px;
         border-bottom-left-radius: 25px;
         border-top-right-radius: 0;
-    }   
+    }
     .more_love h2
     {
         font-size: 24px;
     }
 }
 @media screen and (max-width:500px){
-    .select_item 
+    .select_item
     {
         grid-template-columns: 1fr;
         row-gap: 10px;
@@ -573,11 +573,11 @@ button
         padding: 0;
         align-items: normal
     }
-    .footer_email button 
+    .footer_email button
     {
         margin-top: 16px;
     }
-    .footer_input,.footer_email button  
+    .footer_input,.footer_email button
     {
         width: 100%;
         line-height: 44px;
@@ -773,9 +773,9 @@ a {
     justify-content: center;
     text-align: center;
     max-width: 100%;
-    margin-top: 14rem;
+    margin-top: 13rem;
     width: 100%;
-    padding: 3rem 24rem;
+    padding: 1rem 23rem;
     position: absolute;
     top: 15%;
     left: 50%;
