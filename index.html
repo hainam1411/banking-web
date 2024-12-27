@@ -8,15 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
           integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
-
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-
-          rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,15 +15,19 @@
 </head>
 <body>
 
-
-
-=======
 <!--header-->
 <!-- <section class="hero-header">
     <img src="images/header.png" class="header-image">
     <div class="nav-bar">
         <div class="navbar-left">
             <img src="images/Logo.png" class="logo-web">
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fa-light fa-bars"></i>
+            </label>
+            <input type="checkbox" id="menu-toggle"  hidden>
+
+        </div>
+        <div class="navbar-right">
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li class="dropdown ">
@@ -53,23 +48,25 @@
                 </li>
                 <li><a href="#">Pricing</a></li>
             </ul>
-        </div>
+            <div class="button-header">
+                <a href="#" target="_blank" class="log-in btn-main">Log in</a>
+                <a href="#" target="_blank" class="sign-up btn-main">Sign up</a>
+            </div>
 
-        <div class="navbar-right">
-            <a href="#" target="_blank" class="log-in btn-main">Log in</a>
-            <a href="#" target="_blank" class="sign-up btn-main">Sign up</a>
+
         </div>
     </div>
 
     <div class="banner">
-        <p>Super, Simple, Banking</p>
-        <h1>Banking technology that has your back.</h1>
-        <p>Simple, transparent banking. No hidden fees and free overdrafts.</p>
+            <p>Super, Simple, Banking</p>
+            <h1>Banking technology that has your back.</h1>
+            <p>Simple, transparent banking. No hidden fees and free overdrafts.</p>
 
-        <div class="banner-button">
-            <a href="#" target="_blank" class="demo btn-main"><img src="images/play-circle.png"> Demo</a>
-            <a href="#" target="_blank" class="sign-up btn-main">Sign up</a>
-        </div>
+            <div class="banner-button">
+                <a href="#" target="_blank" class="demo btn-main"><img src="images/play-circle.png"> Demo</a>
+                <a href="#" target="_blank" class="sign-up btn-main">Sign up</a>
+            </div>
+
 
     </div>
 </section>
@@ -175,7 +172,7 @@
                         <h3>Share team inboxes</h3>
                     <p class="feature_text">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
                     <button class="btn_more">
-                        Learn more 
+                        Learn more
                         <img src="assets/images/arrow-right.jpg" alt="">
                     </button>
                     </div>
@@ -185,7 +182,7 @@
                         <h3>Deliver instant answers</h3>
                     <p class="feature_text">An all-in-one customer service platform that helps you balance everything your customers need to be happy.</p>
                     <button class="btn_more">
-                        Learn more 
+                        Learn more
                         <img src="assets/images/arrow-right.jpg" alt="">
                     </button>
                     </div>
@@ -195,15 +192,16 @@
                         <h3>Manage your team with reports</h3>
                     <p class="feature_text">Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.</p>
                     <button class="btn_more">
-                        Learn more 
+                        Learn more
                         <img src="assets/images/arrow-right.jpg" alt="">
                     </button>
                     </div>
                 </div>
               </div>
-            
+
                     <img src="assets/images/Screen mockup (REPLACE FILL).png" alt="" class="img_feature">
                     <img src="assets/images/Content (2).png" alt="" class="img_mobile">
+
             </div>
         </div>
      </div>
@@ -238,7 +236,7 @@
                             <img src="assets/images/Icon1.jpg" alt="">
                         </span>
                         Basic reporting and analytics
-                        
+
                     </li>
                     <li>
                         <span>
@@ -266,7 +264,7 @@
                                 <span> Get started</span>
                               </a>
                         </div>
-                       
+
                     </div>
                </div>
             <div class="select_price_two">
@@ -291,7 +289,7 @@
                            <img src="assets/images/Icon1.jpg" alt="">
                        </span>
                         Advanced reporting
-                        
+
                     </li>
                     <li>
                        <span>
@@ -313,7 +311,7 @@
                     </li>
                 </ul>
                 </div>
-             
+
                  <div class="btn_start">
                      <div>
                         <a href="">
@@ -328,11 +326,11 @@
         <!-- feedback -->
      <div class="more">
             <div class="more_love">
-                
+
                     <img src="assets/images/Stars (1).png" alt="">
-               
+
                 <h2>Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.</h2>
-                
+
              <div class="more_actor">
                 <span>— Renee Wells</span>
                 <br>
@@ -345,17 +343,17 @@
            </div>
             </div>
             <div class="more_img" >
-             
+
                 <img src="assets/images/Image.png" alt="">
-              
+
             </div>
-           
-          
-           
-    
-            
+
+
+
+
+
      </div>
-  
+
      <div class="footer">
      <div class="footer_flex">
         <div class="footer_top">
@@ -363,13 +361,13 @@
             <h3>Join our newsletter</h3>
             <span>We’ll send you a nice letter once per week. No spam.</span>
             </div>
-          
+
             <form action="" class="footer_email">
 
                 <input type="text" class="footer_input" placeholder="Enter your email">
                 <button>
                     <span>Subscribe</span>
-                </button>     
+                </button>
                </form>
         </div>
         <div class="space">
@@ -397,7 +395,7 @@
                     <li>Press</li>
                     <li>News</li>
                     <li>Media kit</li>
-                    <li>Contact</li>        
+                    <li>Contact</li>
                 </ul>
             </div>
             <div class="resources_product">
@@ -413,7 +411,7 @@
             </div>
             <div class="usecase_product">
                 <span>Use cases</span>
-                <ul> 
+                <ul>
                 <li>Startups</li>
                 <li>Enterprise</li>
                 <li>Government</li>
