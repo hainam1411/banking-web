@@ -6,10 +6,10 @@
     line-height: 1.4;
     overflow-x: hidden;
 }
-::-webkit-scrollbar
+/* ::-webkit-scrollbar
 {
     width: 1px;
-}
+} */
 a
 {
     text-decoration: none;
@@ -117,8 +117,9 @@ h3
     border-top: 7px solid;
     border-left:7px solid ;
     border-top-left-radius: 20px;
-    width: 1000px;
+    width: 100%;
     height: 620px;
+    object-fit:cover;
 
 }
 .pricing
@@ -158,21 +159,27 @@ h3
 .select_price_one,.select_price_two
 {
 
+    display: flex;
+    flex-direction: column;
     background: white;
     border-radius: 15px;
     box-shadow: 0 0.5px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid #e0e0e0;
 
 
+}.price_basic div,.price_pro div
+{
+    text-align: center;
 }
 .price_basic,.price_pro
 {
 
         display: flex;
         flex-direction: column;
-        text-align: center;
+        
         row-gap: 10px;
         padding: 24px;
+        flex:1;
 }
 span
 {
@@ -209,7 +216,7 @@ border-radius: 40px;
 {
     display: flex;
     column-gap: 10px;
-    padding-top: 15px;
+    padding-top: 16px;
     color: #475467;
 }
 .infor_basic span ,.infor_pro span
@@ -261,7 +268,7 @@ border-radius: 40px;
    padding:  0 2.5rem 0 2.5rem;
     display: grid;
     grid-template-columns: 3fr 2fr;
-    height: 448px;
+    height: 100%;
     overflow-y: hidden;
 }
 .more_love
@@ -299,14 +306,7 @@ border-radius: 40px;
     margin-top: 8px;
     color: #F9DBAF;
 }
-.more_img img
-{
-    max-width: 100%;
-    width: 100%;
-    height: 448px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-}
+
 .more_select {
     margin: 2rem 0 0 0;
     display: flex;
@@ -454,6 +454,23 @@ button
 {
     display: none;
 }
+@media  screen and (max-width: 3000px)
+{
+    .pricing .select_pricing
+    {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 2.5rem;
+        margin: 6.5rem 7.5rem 7.5rem 7.5rem;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .pricing .select_pricing
+    {
+    grid-template-columns: 0.45fr 1fr;
+    padding: 0 0 0 2.5rem;
+    margin: 6.5rem 7.5rem 7.5rem 7.5rem;
+}
+}
 @media  screen and  (max-width: 1024px)
 {
     .img_mobile
@@ -558,9 +575,7 @@ button
     }
     .more_img img
     {
-        border-bottom-right-radius: 25px;
-        border-bottom-left-radius: 25px;
-        border-top-right-radius: 0;
+        border-radius: 0 0 25px 25px !important;
     }
     .more_love h2
     {
@@ -956,10 +971,10 @@ a {
 }
 .more_img img
 {
-    max-width: 100%;
-    height: 448px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 25px 25px 0;
+    object-fit: cover;
 }
 
 @media (max-width: 768px) {
@@ -997,11 +1012,6 @@ a {
     .demo, .sign-up {
         text-align: center;
     }
-
-    .header-image {
-    }
-
-
     .company {
         grid-template-columns: repeat(2, 1fr);
     }
